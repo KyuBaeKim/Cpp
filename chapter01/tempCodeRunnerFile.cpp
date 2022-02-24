@@ -1,7 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
 auto add(int x, int y)
 {
     return x + y;
