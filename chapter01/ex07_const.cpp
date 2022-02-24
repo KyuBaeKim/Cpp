@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-int main(int argc, char const *argv[]){
+int main(int argc, char const *argv[])
+{
     const double TAX_RATE = 0.25;
     int income = 1000;
     // TAX_RATE = 0.3;
