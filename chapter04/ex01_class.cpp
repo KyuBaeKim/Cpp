@@ -1,17 +1,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Circle
-{
-public:
-    int radius;   // 반지름
-    string color; // tortkd
 
-    double calcArea()
-    {
-        return 3.14 * radius * radius;
-    }
-};
+//다른 파일 불러오는법
+#include "Circle.cpp" // 현재 디렉토리에서 먼저 찾아라..
+// #include <Circle.cpp> // 라이브러리 디렉토리만 찾아라....
 
 int main(int argc, char const *argv[])
 {
