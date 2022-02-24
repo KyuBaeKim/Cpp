@@ -18,8 +18,8 @@ int main(int argc, char const *argv[])
     case 2:
         cout << "two\n";
         break;
-    case 3:
-        cout << "three\n";
+    default:
+        cout << "many\n";
         break;
     }
     return 0;
