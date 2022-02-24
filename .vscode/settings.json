@@ -3,6 +3,8 @@
         "cpp": "cd $dir && clang++ -std=c++17 $fileName -o output/$fileNameWithoutExt && output/$fileNameWithoutExt",
     },
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "istream": "cpp",
+        "string": "cpp"
     },
 }
