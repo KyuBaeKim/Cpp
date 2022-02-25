@@ -5,7 +5,7 @@ using namespace std;
 
 class Car
 {
-public:
+    public:
     int speed;
     int gear;
     string color;
